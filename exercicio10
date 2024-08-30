@@ -9,9 +9,9 @@ programa {
     se (velocidade > 80){
       multa = (7.0 * (velocidade - 80))
       escreva("MULTADO!\n")
-      escreva("O seu carro passou a ", velocidade, "KM/h, sua multa é de R$", multa)
+      escreva("O seu carro passou a ", velocidade, "KM/h, sua multa Ã© de R$", multa)
     }
-    escreva("\nTenha um bom dia!\nDirija com sabedoria e paciência.")
+    escreva("\nTenha um bom dia!\nDirija com sabedoria e paciÃªncia.")
     
   }
 }
