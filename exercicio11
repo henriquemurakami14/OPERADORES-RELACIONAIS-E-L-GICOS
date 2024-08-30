@@ -18,12 +18,12 @@ programa {
       escreva("REPROVADO")
     }
     senao se(media == 10){
-      escreva("APROVADO COM DISTIN«√O.")
+      escreva("APROVADO COM DISTIN√á√ÉO.")
     }
-    escreva("\nSua mÈdia È igual ", media)
+    escreva("\nSua m√©dia √© igual ", media)
   }
   senao{
-    escreva("VALORES INV¡LIDOS")
+    escreva("VALORES INV√ÅLIDOS")
   }
   }
 }
