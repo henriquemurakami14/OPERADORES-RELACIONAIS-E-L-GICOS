@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     escreva("=============================================\n")
-    escreva("Código     Especificação     Preço unitário\n")
+    escreva("CÃ³digo     EspecificaÃ§Ã£o     PreÃ§o unitÃ¡rio\n")
     escreva(" 100       Cachorro quente     5.00\n")
     escreva(" 101       Bauru               2.60\n")
     escreva(" 102       Bauru c/ovo         3.80\n")
@@ -14,7 +14,7 @@ programa {
     inteiro codigo
     real conta = 0.0
 
-    escreva("DIGITE O CÓDIGO DO CARDÁPIO\n==> ")
+    escreva("DIGITE O CÃ“DIGO DO CARDÃPIO\n==> ")
     leia(codigo)
 
     escolha(codigo){
