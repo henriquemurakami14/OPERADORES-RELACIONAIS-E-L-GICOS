@@ -1,4 +1,5 @@
 programa {
+	
   funcao inicio() {
     escreva("=============================================\n")
     escreva("Código     Especificação     Preço unitário\n")
@@ -12,29 +13,47 @@ programa {
     escreva("=============================================\n")
 
     inteiro codigo
-    real conta = 0.0
+    real conta = 0.0, conta_final
+    inteiro quantidade
 
     escreva("DIGITE O CÓDIGO DO CARDÁPIO\n==> ")
     leia(codigo)
 
     escolha(codigo){
       caso 100:
-      conta = 5.00
+      conta += 5.00
+      pare
+      
       caso 101:
       conta += 2.60
+      pare
+      
       caso 102:
       conta += 3.80
+      pare
+      
       caso 103:
       conta += 9.00
+      pare
+      
       caso 104:
       conta += 11.00
+      pare
+      
       caso 105:
       conta += 3.00
+      pare
+      
       caso 106:
       conta += 100.00
-      
-      
-    escreva(conta,"   ",  codigo)
+      pare
     }
+
+	escreva("Qual seria a quantidade do item solicitado: ")
+    	leia(quantidade)
+
+	conta_final = conta * quantidade
+
+    	escreva("A quantidade do produto com o código ", codigo, " é de ", quantidade, " produto(s), o valor pago é de R$", conta_final)
  }
 }
